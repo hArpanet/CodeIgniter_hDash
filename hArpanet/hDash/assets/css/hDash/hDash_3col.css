@@ -1,0 +1,14 @@
+/* hArpanet Dashboard - 3 column stylesheet */
+/* version: 7-Mar-2013						*/
+
+.onecol {
+	width: 31.5%;
+}
+
+.twocol {
+	width: 64.3%;
+}
+
+.threecol {
+	width: 98%;
+}

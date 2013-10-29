@@ -1,0 +1,62 @@
+/* hArpanet Dashboard Widget Library Styles */
+/* version: 13-Mar-2013 */
+
+#main_wrapper {
+	background-color: slategray;
+	display: inline-block;
+	padding: 10px 10px 50px 10px
+}
+
+.widget_wrapper {
+	display: block;
+	border: 2px solid #dfdfdf;
+	float: left; 
+	margin: 5px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: white;
+}
+
+.widget_heading h2 {
+	background: url(../../img/hDash/hDash_widget_h2.gif) repeat-x;
+	background-color: darkgreen;
+	color: black;
+	font-weight: bolder;
+	text-align: center;
+	padding: 6px;
+    margin: 0px;
+	overflow: hidden;
+}
+
+.widget_heading h2 a {
+	color: blue;
+}
+
+.widget_content h3 {
+/*	background: url(../../img/hDash/hDash_widget_h3.gif) repeat-x; */
+	background-color: silver;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	padding: 6px;
+	overflow: hidden;
+}
+
+.widget_content {
+/*	margin: 10px auto; */
+	overflow-x: auto;
+    -moz-border-radius-bottomleft: 2px;
+    -moz-border-radius-bottomright: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -webkit-border-bottom-right-radius: 2px;
+	        
+	text-align: center;
+	text-align: -webkit-center;
+	display: block;
+	position: relative;
+}
+
+.widget_content a {
+	color: blue;
+}
+

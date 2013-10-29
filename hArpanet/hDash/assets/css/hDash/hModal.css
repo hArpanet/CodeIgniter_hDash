@@ -1,0 +1,77 @@
+/* ft_reports search page styles */
+
+@media screen{
+    #modal-container{
+        position:fixed;
+        top:0px;
+        left:0px;
+        height:100%;
+        width:100%;
+        display:none;
+        z-index:500; /* put it above the menu */
+
+        /* styling below */
+/*        background-color: silver; */
+		background-color: rgba(0, 0, 0, 0.8);
+		filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#7F00FF00', EndColorStr='#7F00FF00');
+        cursor: pointer;
+    }
+
+    /* style a specific modal window  */
+    .modal_notice{
+    	color: white;
+    	text-align: center;
+    	font-style: italic;
+    	padding-bottom: 10px;
+    }
+    
+	/* when the modal window is showing, this applied to the content area */
+	.modal_zoom {
+    	padding: 20px;
+    }
+    
+    #modal-body{
+        padding:10px;
+        border:10px solid black;
+/*        background: #76a4e5; /* tata blue */
+        background: white;
+        color:black;
+        overflow-y:auto;
+        position:absolute;
+        display: block;
+        height: auto;
+        width: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    
+    /* any object that can be clicked to call up the modal window */
+    .modalview{
+    	cursor: pointer;
+    }
+
+}
+
+@media print{
+    .modal_body{
+        position:absolute; /* important so it prints on first page */
+        display:none; /* don't show it */
+
+        /* styling below */
+        color:black;
+    }
+
+    /* style a specific modal window  */
+    #modal-container{
+/*        position: fixed;
+        top: 0px;
+        left: 0px;
+        border:5px solid gray;
+        background: #76a4e5;
+        color:black;
+        width: 100%;
+        height: 100%; */
+    }
+}
