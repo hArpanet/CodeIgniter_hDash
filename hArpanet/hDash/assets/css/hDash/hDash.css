@@ -10,7 +10,7 @@
 .widget_wrapper {
 	display: block;
 	border: 2px solid #dfdfdf;
-	float: left; 
+	float: left;
 	margin: 5px;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
@@ -19,7 +19,7 @@
 
 .widget_heading h2 {
 	background: url(../../img/hDash/hDash_widget_h2.gif) repeat-x;
-	background-color: darkgreen;
+	background-color: silver;
 	color: black;
 	font-weight: bolder;
 	text-align: center;
@@ -49,7 +49,7 @@
     -moz-border-radius-bottomright: 2px;
     -webkit-border-bottom-left-radius: 2px;
     -webkit-border-bottom-right-radius: 2px;
-	        
+
 	text-align: center;
 	text-align: -webkit-center;
 	display: block;

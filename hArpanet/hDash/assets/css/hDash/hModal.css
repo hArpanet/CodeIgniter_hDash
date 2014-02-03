@@ -19,21 +19,19 @@
 
     /* style a specific modal window  */
     .modal_notice{
-    	color: white;
     	text-align: center;
     	font-style: italic;
     	padding-bottom: 10px;
     }
-    
+
 	/* when the modal window is showing, this applied to the content area */
 	.modal_zoom {
     	padding: 20px;
     }
-    
+
     #modal-body{
         padding:10px;
         border:10px solid black;
-/*        background: #76a4e5; /* tata blue */
         background: white;
         color:black;
         overflow-y:auto;
@@ -46,7 +44,7 @@
         left: 0;
         right: 0;
     }
-    
+
     /* any object that can be clicked to call up the modal window */
     .modalview{
     	cursor: pointer;
